@@ -34,4 +34,5 @@ class String
     values.each do |value|
       couter += 1
     end
+  end
 end
