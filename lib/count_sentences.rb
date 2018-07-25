@@ -30,8 +30,6 @@ class String
     counter = 0
     input = self
     values = input.split(".")
-    values = input.split("!")
-    values = input.split("?")
 
     values.each do |value|
       counter += 1
