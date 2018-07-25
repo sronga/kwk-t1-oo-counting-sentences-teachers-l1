@@ -32,7 +32,8 @@ class String
     values = input.split(".")
 
     values.each do |value|
-      couter += 1
+      counter += 1
     end
+
   end
 end
