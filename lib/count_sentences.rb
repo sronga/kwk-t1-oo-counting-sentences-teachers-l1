@@ -28,7 +28,10 @@ class String
 
   def count_sentences
     counter = 0
-    allSentences = []
-    
-  end
+    input = self
+    values = input.split(".")
+
+    values.each do |value|
+      couter += 1
+    end
 end
