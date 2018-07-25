@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     counter = 0
+    allSentences = []
     
   end
 end
