@@ -29,7 +29,7 @@ class String
   def count_sentences
     counter = 0
     input = self
-    values = input.split(/(?<=[.?!]("|'|))\s+/)
+    values = input.split(".")
 
     values.each do |value|
       counter += 1
