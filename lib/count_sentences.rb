@@ -34,6 +34,6 @@ class String
     values.each do |value|
       counter += 1
     end
-
+    return counter
   end
 end
